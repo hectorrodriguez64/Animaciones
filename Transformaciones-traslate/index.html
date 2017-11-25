@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Transformaciones Rotación</title>
+    <style>
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: white;
+        font-family: Arial;
+        perspective: 250px;
+        perspective-origin: center;
+      }
+      .Container{
+        border: 1px solid red;
+      }
+      .Container:hover .Cuadrado{
+          transform: translate3d(-100px, -100px, -100px);
+      }
+      .Cuadrado{
+        width: 200px;
+        height: 200px;
+        background: #7DC900;
+        margin: 20px;
+        transition: .3s;
+      }
+    </style>
+
+</head>
+    <body>
+      <div class="Container">
+        <div class="Cuadrado"></div>
+      </div>
+      </div>
+    </body>
+    </html>
